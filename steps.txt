@@ -1,0 +1,5 @@
+Steps to create the container:
+
+1 - Docker Build --tag deploy_ml .
+2 - open terminal and: docker run -v :/opt/ml -p 8080:8080 deploy_ml serve
+3 - rua predict.py 
